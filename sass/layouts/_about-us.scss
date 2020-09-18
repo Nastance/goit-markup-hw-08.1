@@ -1,0 +1,40 @@
+.about-us {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+  .main-title {
+  }
+  .list {
+    display: flex;
+  }
+
+  .item.item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .item {
+    position: relative;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    width: 370px;
+    color: $primary-white-color;
+    background-color: $hero-bacground-color;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+  }
+}

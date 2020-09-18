@@ -1,0 +1,14 @@
+.main-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 0.84;
+  text-align: center;
+
+  @include for-size(desktop) {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.16;
+  }
+}
